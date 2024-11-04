@@ -1,0 +1,17 @@
+backend:
+    functions:
+        - entry: index.mjs
+          name: aws-compatible
+          path: ./
+          type: aws
+    language:
+        name: js
+    path: .
+    scripts:
+        deploy:
+            - npm install
+        local:
+            - npm install
+name: express-getting-started
+region: us-east-1
+yamlVersion: 2
