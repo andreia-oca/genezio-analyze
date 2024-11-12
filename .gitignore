@@ -128,5 +128,3 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-# For testing purposes do not push the genezio.yaml
-genezio.yaml
