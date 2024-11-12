@@ -1,17 +1,12 @@
-name: jade-dreadful-newt
-region: us-east-1
-yamlVersion: 2
-backend:
-    language:
-        name: js
-    functions:
-        - name: serverless
-          path: .
-          handler: handler
-          entry: index.mjs
-          type: aws
+frontend:
+    path: ./
+    publish: build
     scripts:
+        build:
+            - npm run build
         deploy:
             - npm install
-        local:
-            - npm install
+    subdomain: bdsaldas
+name: bdsaldas
+region: us-east-1
+yamlVersion: 2
