@@ -2,9 +2,9 @@ backend:
     functions:
         - entry: index.mjs
           handler: handler
-          name: serverless
+          name: function-express
           path: .
-          type: aws
+          type: httpServer
     language:
         name: js
     path: .
