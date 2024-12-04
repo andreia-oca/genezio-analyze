@@ -13,6 +13,6 @@ backend:
             - npm install
         local:
             - npm install
-name: express-getting-started-2
+name: express-getting-started-3
 region: us-east-1
 yamlVersion: 2
